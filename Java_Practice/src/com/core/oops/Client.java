@@ -42,6 +42,7 @@ public class Client {
 		System.out.println(cs.upperCase("debabrata"));
 		
 		System.out.println("sqaure root");
-		System.err.println((int)cs.getSqaureRoot(100));
+		System.err.println((int)cs.getSqaureRoot(25));
+		System.out.println(cs.hashCode());
 	}
 }
