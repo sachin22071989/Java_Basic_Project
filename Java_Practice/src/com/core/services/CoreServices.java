@@ -53,22 +53,22 @@ public class CoreServices {
 
 	public String upperCase(String str) {
 		// System.out.println("upperCase() Implementation in progress!!!");
-		String uppercase="";
+		String uppercase = "";
 		for (int i = 0; i < str.length(); i++) {
 
-			int ch=str.charAt(i);
-			
-			if(ch>=97&&ch<=122){
-				ch=ch-32;
+			int ch = str.charAt(i);
+
+			if (ch >= 97 && ch <= 122) {
+				ch = ch - 32;
 			}
-			char c=(char)ch;
-			//System.out.print(c);
-			uppercase=uppercase+c;
-			//System.out.println(ch);
+			char c = (char) ch;
+			// System.out.print(c);
+			uppercase = uppercase + c;
+			// System.out.println(ch);
 			// System.out.println(str.charAt(i));
 
 		}
-		return "\nupperCase() --> "+uppercase;
+		return "\nupperCase() --> " + uppercase;
 	}
 
 	public String lowerCase(String str) {
@@ -118,6 +118,15 @@ public class CoreServices {
 	public int[] sorting(int[] arr) {
 		System.out.println("sorting() Implementation in progress!!!");
 		return arr;
+	}
+
+	public double getSqaureRoot(int number) {
+
+		double x = 1;
+		for (int i = 0; i < number; i++) {
+			x = 0.5 * (x + number / x);
+		}
+		return x;
 	}
 
 }

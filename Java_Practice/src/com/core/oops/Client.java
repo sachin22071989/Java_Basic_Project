@@ -38,7 +38,10 @@ public class Client {
 		} else {
 			System.out.println("Input --> " + arm + " \nNot a Armstrong Number");
 		}
-		System.out.println(cs.stringReverse("sachin"));
-		System.out.println(cs.upperCase("sachin kumar kashyap"));
+		System.out.println(cs.stringReverse("debabrata"));
+		System.out.println(cs.upperCase("debabrata"));
+		
+		System.out.println("sqaure root");
+		System.err.println((int)cs.getSqaureRoot(4));
 	}
 }
