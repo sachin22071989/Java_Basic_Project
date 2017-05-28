@@ -127,7 +127,7 @@ public class CoreServices {
 			x = 0.5 * (x + number / x);
 		}
 		System.out.println("sachin");
-		name sachin kumar
+		//name sachin kumar
 		return x;
 	}
 
