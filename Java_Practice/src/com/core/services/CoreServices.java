@@ -126,6 +126,7 @@ public class CoreServices {
 		for (int i = 0; i < number; i++) {
 			x = 0.5 * (x + number / x);
 		}
+		System.out.println("sachin");
 		return x;
 	}
 

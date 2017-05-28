@@ -30,19 +30,19 @@ public class Client {
 
 		}
 		CoreServices cs = new CoreServices();
-		
+
 		int arm = 153;
 		if (cs.isArmstrong(arm) == true) {
 			System.out.println("Input --> " + arm + " \nNumber is Armstrong");
-			
+
 		} else {
 			System.out.println("Input --> " + arm + " \nNot a Armstrong Number");
 		}
 		System.out.println(cs.stringReverse("debabrata"));
 		System.out.println(cs.upperCase("debabrata"));
-		
+
 		System.out.println("sqaure root");
-		System.err.println((int)cs.getSqaureRoot(25));
+		System.err.println((int) cs.getSqaureRoot(25));
 		System.out.println(cs.hashCode());
 	}
 }
